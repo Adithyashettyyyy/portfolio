@@ -1,0 +1,15 @@
+.skills{
+    background-color:wheat;
+    border: 5px;
+    border-radius: 20px;
+    margin:50px;
+}
+ul{
+    font-weight: bold;
+    text-align: left;
+}
+h2{
+    padding-left: 30px;
+    font-family: cursive;
+    color: #0164BE;
+}

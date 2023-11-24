@@ -1,0 +1,11 @@
+.below{
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    color:darkcyan;
+    background-color: #2c041d;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+    nav {
+    background-color: blueviolet;
+    padding: 10px 20px;
+    }
+    
+    .navbar {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    }
+    
+    .mobile-nav {
+    display:none;
+    }
+    
+    .desktop-nav ul,
+    .mobile-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    .desktop-nav li,
+    .mobile-nav li {
+    margin: 0 10px;
+    }
+    
+    .desktop-nav a,
+    .mobile-nav a {
+    color: rgb(247, 244, 244);
+    text-decoration: none;
+    font-size: 16px;
+    }
+    
+    .hamburger {
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    display: none;
+    }
+   
+    .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+    .mobile-nav ul {
+    background-color: rgb(38, 48, 44);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    }
+    .mobile-nav.show ul {
+    max-height: 1px;
+    
+    }
+  .mobile-nav a {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color:black;
+    background-color:darkorchid;
+    text-decoration: none;
+    }
+    
+    
+    .desktop-nav ul a:hover {
+    background-color: rgb(212, 220, 220);
+    padding: 10px 20px;
+    color: rgb(166, 116, 116);
+    }
+    
+    .mobile-nav ul a:hover {
+    padding: 4px;
+    width: 100%;
+    background-color: rgb(228, 233, 233);
+    }
+ 
+     .closebtn{
+      display: none;
+     }  
+    
+    @media screen and (max-width: 600px){
+        .desktop{
+            display: none;
+        }
+
+    }
+    .btn{
+        width: 30px;
+        height: 30px;
+        display: none;
+    }
+    @media only screen and (max-width:600px) {
+        .btn{
+            display: block;
+        }
+        
+      }
+    span{
+        color: #fff;
+       
+      }
+  @media only screen and (min-width:600px) {
+    #try{
+        display: none;
+    }
+  }
+  .nnn{
+    margin-top: 13rem;
+    position: absolute;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 7rem;
+  background-color: rgb(230, 226, 226);
+  float: right;
+  margin-left: 13.5rem;
+  border-radius: 10px;
+  }
+  @media (max-width:600px) {
+    .closebtn{
+      display: block;
+    }
+    
+  }
+  
+
+  
+    
+    
+    
